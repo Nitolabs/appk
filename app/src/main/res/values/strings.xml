@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">AprendeApp</string>
+
+    <!-- Pantalla de Bienvenida -->
+    <string name="welcome_message">¡Bienvenido a AprendeApp!</string>
+    <string name="welcome_subtitle">Tu plataforma de recursos educativos</string>
+
+    <!-- Login -->
+    <string name="login_title">Iniciar Sesión</string>
+    <string name="email_hint">Correo electrónico</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="login_button">Ingresar</string>
+    <string name="register_link">¿No tienes cuenta? Regístrate</string>
+    <string name="login_success">Bienvenido de nuevo</string>
+    <string name="login_error">Credenciales inválidas</string>
+
+    <!-- Registro -->
+    <string name="register_title">Crear Cuenta</string>
+    <string name="name_hint">Nombre completo</string>
+    <string name="confirm_password_hint">Confirmar contraseña</string>
+    <string name="register_button">Registrarse</string>
+    <string name="login_link">¿Ya tienes cuenta? Inicia sesión</string>
+    <string name="register_success">Cuenta creada exitosamente</string>
+
+    <!-- Validaciones -->
+    <string name="error_empty_field">Este campo es obligatorio</string>
+    <string name="error_invalid_email">Correo electrónico inválido</string>
+    <string name="error_password_length">La contraseña debe tener al menos 8 caracteres</string>
+    <string name="error_password_uppercase">Debe contener al menos una letra mayúscula</string>
+    <string name="error_password_lowercase">Debe contener al menos una letra minúscula</string>
+    <string name="error_password_number">Debe contener al menos un número</string>
+    <string name="error_password_special">Debe contener al menos un carácter especial (!@#$%^&amp;*)</string>
+    <string name="error_password_mismatch">Las contraseñas no coinciden</string>
+
+    <!-- Lista de Recursos -->
+    <string name="resources_title">Recursos Educativos</string>
+    <string name="search_hint">Buscar por título, tipo o ID…</string>
+    <string name="filter_all">Todos</string>
+    <string name="sort_by">Ordenar por:</string>
+    <string name="sort_title_asc">Título (A-Z)</string>
+    <string name="sort_title_desc">Título (Z-A)</string>
+    <string name="sort_type">Tipo</string>
+    <string name="no_resources">No hay recursos disponibles</string>
+    <string name="loading">Cargando…</string>
+
+    <!-- Detalle de Recurso -->
+    <string name="resource_type">Tipo:</string>
+    <string name="resource_link">Enlace:</string>
+    <string name="open_link">Abrir Recurso</string>
+    <string name="edit_resource">Editar</string>
+    <string name="delete_resource">Eliminar</string>
+
+    <!-- Agregar/Editar Recurso -->
+    <string name="add_resource_title">Agregar Recurso</string>
+    <string name="edit_resource_title">Editar Recurso</string>
+    <string name="title_hint">Título del recurso</string>
+    <string name="description_hint">Descripción detallada</string>
+    <string name="type_hint">Tipo (libro, video, tutorial, etc.)</string>
+    <string name="link_hint">URL del recurso</string>
+    <string name="image_hint">URL de la imagen</string>
+    <string name="save_button">Guardar</string>
+    <string name="cancel_button">Cancelar</string>
+    <string name="resource_saved">Recurso guardado exitosamente</string>
+    <string name="resource_updated">Recurso actualizado exitosamente</string>
+
+    <!-- Eliminar Recurso -->
+    <string name="delete_confirmation_title">Confirmar eliminación</string>
+    <string name="delete_confirmation_message">¿Estás seguro de que deseas eliminar este recurso?</string>
+    <string name="delete_button">Eliminar</string>
+    <string name="resource_deleted">Recurso eliminado exitosamente</string>
+
+    <!-- Menú -->
+    <string name="menu_home">Inicio</string>
+    <string name="menu_add">Agregar</string>
+    <string name="menu_profile">Perfil</string>
+    <string name="menu_logout">Cerrar Sesión</string>
+    <string name="logout_confirmation">¿Deseas cerrar sesión?</string>
+
+    <!-- Errores -->
+    <string name="error_network">Error de conexión. Verifica tu internet</string>
+    <string name="error_server">Error del servidor. Intenta más tarde</string>
+    <string name="error_unknown">Ha ocurrido un error inesperado</string>
+</resources>
